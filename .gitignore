@@ -1,0 +1,27 @@
+# --- build artifacts ---
+build/
+*.o
+*.dat
+analisi_sorgente
+studio_prestazioni
+visualizza_apparato
+
+# --- LaTeX auxiliary files ---
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+presentation/*.pdf
+!presentation/figures/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
